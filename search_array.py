@@ -10,3 +10,7 @@ odd = np.where(arr%2!=0)
 print(odd)
 even = np.where(arr%2==0)
 print(even)
+
+# search sorted in numpy array
+search_val = np.searchsorted(arr,5555)
+print(search_val) 

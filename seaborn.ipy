@@ -1,0 +1,9 @@
+import matplotlib.pyplot as plt 
+import seaborn as sns
+
+# show using histogram
+sns.distplot([0,1,2,3,4])
+plt.show()
+# show without histogram
+sns.distplot([0,1,2,3,4],hist=False)
+plt.show()
